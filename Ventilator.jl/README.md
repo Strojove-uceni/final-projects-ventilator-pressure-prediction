@@ -24,6 +24,10 @@ Files:
 
 Folder `scripts` contains scripts used for experimenting. The subfolder of interest is `run_scripts`  which contains complete scripts for experimentation. For more details about models, scripts and other features, there is another `README.md` file in the `scripts` folder.
 
+## Notebooks
+
+If you just want to see how all this works, open the notebook in the `notebooks` folder and you can see. Also, you can try it yourself in Google Colab, just make sure you follow the instructions ;)
+
 ## How to use this code base
 
 This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
