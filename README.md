@@ -1,8 +1,13 @@
 # Overview
 
-This is the full repo of experiments we have run and the work we have done. The project is Ventilator Pressure Prediction and you can read more about it at the Kaggle competition website https://www.kaggle.com/c/ventilator-pressure-prediction/. 
+This is the full repo of experiments we have run and the work we have done. The project is Ventilator Pressure Prediction and you can read more about it at the Kaggle competition website https://www.kaggle.com/c/ventilator-pressure-prediction/.
 
-If you do not want to be bothered with code, you can go straight to folder `DEMOS` which contains a Julia notebook, or to `vp_colab` for a Python notebook. Both can be either viewed or run. Unfortunatelly, Colab does not support Julia very easily, therefore you will need to install a few things, but do not worry, it does not take that much time and you can have a snack while you're waiting.
+If you do not want to be bothered with code, you can go straight to folder `DEMOS` which contains a Julia notebook, or to `vp_colab` for a Python notebook. Both can be either viewed or run. Some notes:
+
+- The Jupyter notebook in Python is a more interactive one and should be easily readable by people familiar with Python.
+- The final model, the best and chosen one, is in the Julia notebook in `DEMOS`. Unfortunatelly, Colab does not support Julia very easily, therefore you will need to install a few things, but do not worry, it does not take that much time and you can have a snack while you're waiting.
+
+Feel free to try the Python model first as it should be more easily understandable for pythonists. Then, you can move to Julia and see how the best model is composed, run and evaluated.
 
 Most of the work done is in Julia language, since one of the students is familiar with it and wanted to code rather than copy from Google. You can go to the folder `Ventilator.jl` which has its own README file with more info.
 
