@@ -1,0 +1,26 @@
+#!/bin/bash
+### Job Name
+#PBS -N 9models
+### Required runtime
+#PBS -l walltime=30:00:00
+### Queue for submission
+#PBS -q cpu_b
+
+### Submit array
+#PBS -J 1-10
+
+### Merge output and error files
+#PBS -j oe
+
+### Request memory and CPU cores
+#PBS -l select=1:mem=50G:ncpus=5
+job=$PBS_JOBNAME.$PBS_ARRAY_INDEX
+
+### Start job in the currect directory
+cd $PBS_O_WORKDIR
+
+### Load Julia module
+module load julia/1.6.0
+
+### Run script
+julia --threads 9 9models.jl
